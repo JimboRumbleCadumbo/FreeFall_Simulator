@@ -49,7 +49,7 @@ public class calculation {
     }
 
     private void calcCurrentVelocity(){
-        velocity = (usrHeight - curHeight) / time;
+        velocity = 9.8 * time;
     }
 
     public void setUsrHeight(double usrInput){
